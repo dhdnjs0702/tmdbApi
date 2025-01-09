@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDB 영화 목록</title>
+    <link rel="stylesheet" href="tmdb.css">
+</head>
+
+<body>
+    <h1 class="theme" id="theme">TMDB 영화 목록</h1>
+    <input type="text" id="search" class="search" placeholder="영화제목을 입력해주세요.">
+    <hr>
+    <div class="test"></div>
+
+    <div>
+        <div class="movie-list" id="movieList"></div>
+    </div>
+
+    <div id="movieModal">
+        <div class="modalContent">
+            <span class="closeBtn">&times;</span>
+            <h2 id="movieTitle"></h2>
+            <img id="moviePoster" src="">
+            <p id="movieOverview"></p>
+            <p id="movieReleaseDate"></p>
+            <p id="movieVote"></p>
+        </div>
+    </div>
+
+
+    <footer>
+        <hr>
+        <div id="madeBy">made by mzoba</div>
+    </footer>
+    <script src="tmdb.js"></script>
+</body>
+
+
+</html>
