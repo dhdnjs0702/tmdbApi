@@ -11,6 +11,7 @@
 <body>
     <h1 class="theme" id="theme">TMDB 영화 목록</h1>
     <input type="text" id="search" class="search" placeholder="영화제목을 입력해주세요.">
+    <button id="goToFavorites">관심 목록</button>
     <hr>
     <div class="test"></div>
 
@@ -26,6 +27,13 @@
             <p id="movieOverview"></p>
             <p id="movieReleaseDate"></p>
             <p id="movieVote"></p>
+            <p><button id="movieAdd">관심 목록 추가하기</button></p>
+        </div>
+    </div>
+
+    <div id="infomodal">
+        <div class="infomodalContent">
+            <p>관심목록에 추가되었습니다</p>
         </div>
     </div>
 
